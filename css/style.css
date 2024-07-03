@@ -22,7 +22,7 @@ a:hover {
 }
 
 a:hover {
-    color-scheme: var(--primary-color) !important;
+    color: var(--primary-color) !important;
 }
 
 ul,
@@ -107,4 +107,120 @@ p {
     color: var(--white-color);
     letter-spacing: 0.0625rem;
     opacity: 0.8;
+}
+
+.main-btn {
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.125rem;
+    display: inline-block;
+    color: var(--white-color);
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 30px;
+    position: relative;
+}
+
+.main-btn::after,
+.main-btn::before {
+    top: 50%;
+    left:0;
+    width: 100%;
+    position: absolute;
+    height: 1px;
+    content: "";
+    transition: all .5s ease-out 0s;
+    transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+}
+
+.main-btn::after{
+    transform: translateY(20px);
+    -webkit-transform: translateY(20px);
+}
+
+.main-btn:hover::before{
+    transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    background-color: var(--primary-color);
+}
+
+.main-btn:hover::after{
+    transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    background-color: var(--primary-color);
+}
+
+.main-btn:hover {
+    color: var(--primary-color) !important;
+}
+
+.wrapper {
+    background-color: var(--secondary-color);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.text-content {
+    width: 60%;
+    margin: auto;
+}
+
+/* HEADER */
+
+.top-header {
+    background-color: var(--secondary-color);
+
+}
+.top-header span{
+    font-size: 0.875rem;
+    color: var(--white-color);
+    letter-spacing: 0.1062rem;
+}
+
+/* NAVBAR */
+
+.navigation-wrap {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    transition: all 0.3s ease-out;
+    -webkit-transition:all 0.3s ease-out;
+}
+
+.navigation-wrap .nav-item{
+    padding: 0 0.5rem;
+    transition: all 200ms linear;
+}
+
+.navbar-toggler:focus {
+    outline: unset;
+    border: none;
+    box-shadow: none;
+}
+
+.navigation-wrap .nav-link {
+    padding-top : 0.9375rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--white-color);
+    letter-spacing: 0.0625rem;
+}
+
+
+.nav-link .active{
+  color: var(--primary-color);
+}
+.navigation-wrap .nav-link:hover{
+    color: var(--primary-color);
+}
+/* change navbar styling on scroll */
+
+.navigation-wrap.scroll-on {
+    position: fixed;
+    background-color: var(--black-color);
+    top: 0;
+    left: 0;
 }
