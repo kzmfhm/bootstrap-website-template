@@ -1,3 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:active,
+:hover,
+:focus {
+    outline: 0 !important;
+    outline-offset: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+a:hover {
+    color-scheme: var(--primary-color) !important;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* variables */
+
+:root {
+    --primary-color : #ff553e;
+    --secondary-color : #333;
+    --white-color : #fff;
+    --black-color : #000;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+}
+
+/* custom scrollbar */
+
+::-webkit-scrollbar {
+    width: 0.3125rem;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--white-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+}
+
+/* custom CSS design */
+
 h1 {
-    color: #c54242;
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+
+h2 {
+    font-size: 1.5625rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+    text-transform: capitalize;
+    color: var(--white-color);
+}
+
+h4 {
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-bottom: 0.9375rem;
+    text-transform: capitalize;
+    color: var(--white-color);
+    transition: all .3s linear;
+}
+
+h5 {
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    color: var(--white-color);
+  
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    color: var(--white-color);
+    letter-spacing: 0.0625rem;
+    opacity: 0.8;
 }
