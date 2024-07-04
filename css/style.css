@@ -213,9 +213,11 @@ p {
 .nav-link .active{
   color: var(--primary-color);
 }
+
 .navigation-wrap .nav-link:hover{
     color: var(--primary-color);
 }
+
 /* change navbar styling on scroll */
 
 .navigation-wrap.scroll-on {
