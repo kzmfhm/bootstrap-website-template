@@ -226,14 +226,14 @@ p {
 
 /* change navbar styling on scroll */
 
-.navigation-wrap.scroll-on {
+.navigation-wrap .scroll-on {
     position: fixed;
     background-color: var(--black-color);
     top: 0;
     left: 0;
     width: 100%;
-    box-shadow: 0 0.125rem 7.1rem 0 rgb(0, 1, 0.9);
-    transition: all .5s ease-in-out;
+    box-shadow: 0 0.125rem 1.7rem 1 rgb(0, 0,0, 0.9);
+    transition: all .15s ease-in-out 0s;
 }
 
 .navigation-wrap.scroll-on .nav-link:hover ,
