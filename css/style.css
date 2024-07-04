@@ -231,4 +231,12 @@ p {
     background-color: var(--black-color);
     top: 0;
     left: 0;
+    width: 100%;
+    box-shadow: 0 0.125rem 7.1rem 0 rgb(0, 1, 0.9);
+    transition: all .5s ease-in-out;
+}
+
+.navigation-wrap.scroll-on .nav-link:hover ,
+.navigation-wrap.scroll-on .nav-link:active {
+    color: var(--primary-color);
 }
