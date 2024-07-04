@@ -194,8 +194,14 @@ p {
     transition: all 200ms linear;
 }
 
-button .navbar-toggler {
-    outline: unset;
+.navigation-wrap button {
+    border-color: #fff;
+    border: none;
+    outline: none;
+    box-shadow: none;
+} 
+.navigation-wrap button:focus {
+    border-color: #fff;
     border: none;
     outline: none;
     box-shadow: none;
