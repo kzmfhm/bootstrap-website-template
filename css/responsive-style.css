@@ -1,0 +1,50 @@
+@media (max-width: 1024px) {
+
+    h1 {
+        font-size: 3.25rem;
+    }
+
+    h2 {
+        font-size: 1.125rem;
+        line-height: 1.5625rem;
+    }
+
+    .wrapper {
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+    }
+}
+
+@media (max-width: 991px) {
+
+    h4 {
+        font-size: 0.9375rem;
+        margin-bottom: 0.625rem;
+    }
+
+    p {
+        font-size: 0.875rem;
+        line-height: 1.3125rem;
+    }
+
+    .text-content {
+       width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+
+    h1 {
+        font-size: 1.25rem;
+     
+    }
+
+    h2 {
+        font-size: 1rem;
+   
+    }
+
+    .text-content {
+       width: 100%;
+    }
+}
