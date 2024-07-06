@@ -16,12 +16,13 @@
     outline-offset: 0;
 }
 
-a,
-a:hover {
+
+a {
     text-decoration: none;
 }
 
 a:hover {
+    text-decoration: none;
     color: var(--primary-color) !important;
 }
 
@@ -38,6 +39,7 @@ ol {
     --secondary-color : #333;
     --white-color : #fff;
     --black-color : #000;
+    --accent-color : #f47a36
 }
 
 html {
@@ -104,7 +106,7 @@ p {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.75rem;
-    color: var(--white-color);
+    color: var(--secondary-color);
     letter-spacing: 0.0625rem;
     opacity: 0.8;
 }
@@ -117,9 +119,13 @@ p {
     color: var(--white-color);
     font-weight: 700;
     text-transform: uppercase;
-    padding: 0 30px;
+    padding: 0 35px;
     position: relative;
+    border-top: 1px solid var(--white-color);
+    border-bottom: 1px solid var(--white-color);
+    text-decoration: none;
 }
+
 
 .main-btn::after,
 .main-btn::before {
@@ -152,6 +158,8 @@ p {
 }
 
 .main-btn:hover {
+    border-bottom: none;
+    border-top: none;
     color: var(--primary-color) !important;
 }
 
@@ -245,5 +253,13 @@ p {
 /* banner */
 
 #home .carousel-caption {
-    top: 12rem;
+    top: 12rem
+    
+}
+
+
+#home .carousel-caption p{
+    max-width: 36.25rem;
+    margin: 1.0625rem auto;
+    
 }
