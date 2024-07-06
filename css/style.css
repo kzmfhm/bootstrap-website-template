@@ -240,3 +240,10 @@ p {
 .navigation-wrap.scroll-on .nav-link:active {
     color: var(--primary-color);
 }
+
+
+/* banner */
+
+#home .carousel-caption {
+    top: 12rem;
+}
