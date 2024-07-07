@@ -30,6 +30,10 @@
     .text-content {
        width: 100%;
     }
+
+    .navigation-wrap .navbar-brand img {
+        height: 2.8125rem;
+    }
 }
 
 @media (max-width: 575px) {
