@@ -40,10 +40,17 @@
 
     .navigation-wrap {
      text-align: right;
+  
     }
 
     .navigation-wrap .nav-link{
         line-height: 1.875rem;
+    }
+    #home {
+        padding: .375rem 0 0;
+    }
+    #home .carousel-caption {
+        top: 3.5rem;
     }
 }
 
