@@ -1,3 +1,10 @@
+:root {
+    --primary-color : #ff553e;
+    --secondary-color : #333;
+    --white-color : #fff;
+    --black-color : #000;
+    --accent-color : #f47a36
+}
 @media (max-width: 1024px) {
 
     h1 {
@@ -33,6 +40,15 @@
 
     .navigation-wrap .navbar-brand img {
         height: 2.8125rem;
+    }
+    /* .navbar-toggler-icon{
+        color: var(--white-color);
+        line-height: 2;
+    } */
+    .navigation-wrap {
+        z-index: 999;
+        
+        text-align: right;
     }
 }
 
