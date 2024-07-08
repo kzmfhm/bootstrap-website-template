@@ -20,6 +20,10 @@
         padding-top: 1.25rem;
         padding-bottom: 1.25rem;
     }
+    #home .carousel-caption {
+        top: 3.5rem;
+    }
+  
 }
 
 @media (max-width: 991px) {
@@ -50,7 +54,10 @@
         padding: .375rem 0 0;
     }
     #home .carousel-caption {
-        top: 3.5rem;
+        top: 5.5rem;
+    }
+    .carousel-item img{
+        height: 36vh !important;
     }
 }
 
@@ -84,7 +91,7 @@
        
     }
     #home .carousel-caption {
-        top: 1.5rem;
+        top: 1.8rem;
     }
     #home .carousel-caption p{
         margin: 5px auto;
@@ -92,6 +99,7 @@
     .carousel-item img{
         height: 300px !important;
     }
+   
 }
 
 @media (max-width: 430px) {
@@ -100,16 +108,23 @@
         margin-bottom: 0;
      
     }
-
-   
+    .top-header {
+        display: none;
+    }
+    .carousel-item img{
+        height: 280px !important;
+    }
+    #home .carousel-caption {
+        padding: 0;
+    }
+    #home .carousel-caption p{
+        font-size: 0.75rem;
+        line-height: 1.125rem;
+    }
 }
 
 @media (max-width: 360px) {
-
-    h1 {
-        margin-bottom: 0;
-     
+    #home .carousel-caption {
+        padding: 1;
     }
-
-   
 }
