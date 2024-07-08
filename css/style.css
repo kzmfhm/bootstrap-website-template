@@ -39,7 +39,7 @@ ol {
     --secondary-color : #333;
     --white-color : #fff;
     --black-color : #000;
-    --accent-color : #f47a36
+    --light-color : #f8f9fa;
 }
 
 html {
@@ -194,49 +194,48 @@ p {
     left: 0;
     z-index: 99;
     transition: all 0.3s ease-out;
-    -webkit-transition:all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
 }
 
-.navigation-wrap .nav-item{
+.navigation-wrap .nav-item {
     padding: 0 0.5rem;
     transition: all 200ms linear;
 }
 
 .navigation-wrap button {
-    border-color: #fff;
+    border-color: var(--white-color);
     border: none;
     outline: none;
     box-shadow: none;
-} 
+}
+
 .navigation-wrap button:focus {
-    border-color: #fff;
+    border-color: var(--white-color);
     border: none;
     outline: none;
     box-shadow: none;
 }
 
 .navigation-wrap .nav-link {
-    padding-top : 0.9375rem;
+    padding-top: 0.9375rem;
     font-size: 0.875rem;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.0625rem;
 }
 
-
-.nav-link .active{
-  color: var(--primary-color);
+.nav-link .active {
+    color: var(--primary-color);
 }
 
-.navigation-wrap .nav-link:hover{
+.navigation-wrap .nav-link:hover {
     color: var(--primary-color);
 }
 
 /* change navbar styling on scroll */
-
-.navigation-wrap .scroll-on {
+.navigation-wrap.scroll-on {
     position: fixed;
-    background-color: var(--black-color);
+    background-color: var(--light-color);
     top: 0;
     left: 0;
     width: 100%;
@@ -244,10 +243,11 @@ p {
     transition: all .15s ease-in-out 0s;
 }
 
-.navigation-wrap.scroll-on .nav-link:hover ,
+.navigation-wrap.scroll-on .nav-link:hover,
 .navigation-wrap.scroll-on .nav-link:active {
     color: var(--primary-color);
 }
+
 
 
 /* banner */
@@ -264,4 +264,8 @@ p {
     max-width: 36.25rem;
     margin: 1.0625rem auto;
     
+}
+
+.hh {
+    min-height: 1500px;
 }

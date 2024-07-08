@@ -3,7 +3,7 @@
     --secondary-color : #333;
     --white-color : #fff;
     --black-color : #000;
-    --accent-color : #a1a1a1
+    --light-color : #f8f9fa;
 }
 @media (max-width: 1024px) {
 
