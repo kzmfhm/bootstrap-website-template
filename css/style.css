@@ -164,14 +164,15 @@ p {
 }
 
 .wrapper {
-
+  
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
 
 .text-content {
+  
     width: 60%;
- 
+    margin: auto;
 }
 
 /* HEADER */
@@ -234,6 +235,7 @@ p {
 
 /* change navbar styling on scroll */
 .navigation-wrap.scroll-on {
+  
     position: fixed;
     background-color: var(--light-color);
     top: 0;
@@ -261,7 +263,7 @@ p {
     
 }
 #main {
-    height: 91.5dvh;
+    height: 100dvh;
 
 }
 
@@ -279,4 +281,28 @@ p {
     position: absolute;
     z-index: 9;
     padding: 0 15px;
+}
+
+.new-arrivals .card-banner:nth-child(2) h2,
+.new-arrivals .card-banner:nth-child(2) a,
+.new-arrivals .card-banner:nth-child(2) p{
+    color: var(--black-color);
+}
+
+.new-arrivals .card-banner .card-thumb,
+.products .item-product{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.new-arrivals .card-banner .card-thumb img,
+.products .item-product img{
+    transition: all 0.5s ease-in-out;
+}
+
+.new-arrivals .card-banner .card-thumb img:hover,
+.products .item-product img:hover{
+    transform: scale(1.2);
+    opacity: 0.6;
 }
