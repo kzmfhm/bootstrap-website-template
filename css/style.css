@@ -164,7 +164,7 @@ p {
 }
 
 .wrapper {
-    background-color: var(--secondary-color);
+
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
@@ -265,3 +265,5 @@ p {
     margin: 1.0625rem auto;
     
 }
+
+
