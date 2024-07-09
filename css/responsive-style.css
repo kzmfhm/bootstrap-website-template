@@ -5,6 +5,13 @@
     --black-color : #000;
     --light-color : #f8f9fa;
 }
+@media (max-width: 1280px) {
+    #main {
+        height: auto;
+        margin-bottom: 2rem;
+    
+    }
+}
 @media (max-width: 1024px) {
 
     h1 {
@@ -15,7 +22,10 @@
         font-size: 1.125rem;
         line-height: 1.5625rem;
     }
-
+    #main {
+        height: auto;
+    
+    }
     .wrapper {
         padding-top: 1.25rem;
         padding-bottom: 1.25rem;
@@ -41,6 +51,10 @@
     .text-content {
        width: 100%;
     }
+    #main {
+        height: auto;
+    
+    }
 
     .navigation-wrap {
      text-align: right;
@@ -49,6 +63,10 @@
 
     .navigation-wrap .nav-link{
         line-height: 1.875rem;
+    }
+    #main {
+        height: auto;
+    
     }
     #home {
         padding: .375rem 0 0;
@@ -74,7 +92,9 @@
         margin-bottom: 5px;
    
     }
-
+    #main {
+        height: auto;
+    }
     .main-btn {
        height: 20px;
        line-height: 20px;
@@ -117,6 +137,10 @@
     #home .carousel-caption {
         padding: 0;
     }
+    #main {
+        height: auto;
+    
+    }
     #home .carousel-caption p{
         font-size: 0.75rem;
         line-height: 1.125rem;
@@ -126,5 +150,9 @@
 @media (max-width: 360px) {
     #home .carousel-caption {
         padding: 1;
+    }
+        #main {
+            height: auto;
+    
     }
 }

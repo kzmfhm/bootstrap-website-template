@@ -260,7 +260,10 @@ p {
     top: 12rem
     
 }
+#main {
+    height: 91.5dvh;
 
+}
 
 
 #home .carousel-caption p{
