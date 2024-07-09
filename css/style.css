@@ -171,7 +171,7 @@ p {
 
 .text-content {
     width: 60%;
-    margin: auto;
+ 
 }
 
 /* HEADER */
@@ -248,16 +248,19 @@ p {
     color: var(--primary-color);
 }
 
-
-
 /* banner */
 .carousel {
     z-index: 1;
+}
+ 
+#home {
+    bottom: 0;
 }
 #home .carousel-caption {
     top: 12rem
     
 }
+
 
 
 #home .carousel-caption p{
@@ -266,4 +269,11 @@ p {
     
 }
 
-
+.new-arrivals .banner-info{
+    bottom: 30px;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 9;
+    padding: 0 15px;
+}
