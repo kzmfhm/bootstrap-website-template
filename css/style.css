@@ -327,3 +327,21 @@ p {
   line-height: 34px;
   text-transform: uppercase;
 }
+
+.products .product-info .cat-parent,
+.products .product-info .whishlist i{
+    font-size: 0.875rem;
+    color: var(--white-color);
+    opacity: 0.6;
+    text-transform: uppercase;
+}
+
+.products .product-title a{
+    margin: 0 0 7px;
+    display: block;
+    color: var(--white-color);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
