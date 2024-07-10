@@ -345,3 +345,18 @@ p {
     white-space: nowrap;
     text-transform: uppercase;
 }
+.paragraph{
+    opacity: 0.6;
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+.basket a i {
+    opacity: 0.6;
+    color: var(--light-color);
+}
+
+.product-price {
+    opacity: 0.6;
+    color: var(--light-color);
+    text-transform: uppercase;
+}
