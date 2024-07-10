@@ -35,6 +35,8 @@ ol {
 /* variables */
 
 :root {
+    --page-link-hover-bg: #29203d;
+    --color-form: #f5f7f9;
     --primary-color : #ff553e;
     --secondary-color : #333;
     --white-color : #fff;
@@ -368,5 +370,16 @@ p {
 }
 
 #deal {
-    background-color: var(--light-color);
+    background-color: var(--accent-color);
+}
+.blog {
+    background-color: var(--page-link-hover-bg);
+    
+    margin-block: 4rem;
+}
+.blog-text{
+    color: var(--color-form);
+}
+.blog-text2{
+    color:  var(--page-link-hover-bg);
 }
