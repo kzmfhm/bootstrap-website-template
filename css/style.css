@@ -306,3 +306,24 @@ p {
     transform: scale(1.2);
     opacity: 0.6;
 }
+.products .wrapper{
+    background-color: var(--secondary-color);
+}
+
+.products .nav-tabs {
+    border: 0;
+    justify-content: center;
+}
+
+.products .nav-tabs .nav-link{
+   display: block;
+   padding: 0 30px;
+   border: 1px solid var(--white-color);
+  border-radius: 20px;
+  background-color: var(--black-color);
+  color: var(--white-color);
+  height: 36px;
+  margin: 10px ;
+  line-height: 34px;
+  text-transform: uppercase;
+}
