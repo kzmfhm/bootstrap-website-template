@@ -40,6 +40,7 @@ ol {
     --white-color : #fff;
     --black-color : #000;
     --light-color : #f8f9fa;
+    --accent-color : #a1a1a1;
 }
 
 html {
@@ -165,7 +166,7 @@ p {
 
 .wrapper {
   
-    padding-top: 4rem;
+    padding-top: 2rem;
     padding-bottom: 4rem;
 }
 
@@ -262,10 +263,10 @@ p {
     top: 12rem
     
 }
-#main {
-    height: 100dvh;
-
-}
+/* #main {
+    height: 90dvh;
+  
+} */
 
 
 #home .carousel-caption p{
@@ -273,6 +274,11 @@ p {
     margin: 1.0625rem auto;
     
 }
+#new-arrivals{
+    margin-top: 4.5rem;
+   background-color: var(--accent-color);
+}
+
 
 .new-arrivals .banner-info{
     bottom: 30px;
