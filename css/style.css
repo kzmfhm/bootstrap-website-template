@@ -366,3 +366,7 @@ p {
     color: var(--light-color);
     text-transform: uppercase;
 }
+
+#deal {
+    background-color: var(--light-color);
+}
