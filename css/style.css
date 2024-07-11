@@ -390,11 +390,10 @@ p {
 .footer .footer-social a i {
     font-size: 1.5rem;
     color: var(--white-color);
-    padding: 0 1rem;
+    padding: 0 0.5rem;
 }
 
- .footer-social a:hover i {
-
+.footer .footer-social a i:hover{
     color: var(--primary-color);
  
 }
