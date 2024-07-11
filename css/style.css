@@ -36,14 +36,7 @@ ol {
 
 :root {
     --color-form: #f5f7f9;
-    --input-bg: #aaafbb;
-    --button-color: #29203d;
     --font-family: 'Roboto', sans-serif;
-    --button-hover-color: #bf1650;
-    --page-link-bg: #fff;
-    --page-link-border: 1px solid #ddd;
-    --page-link-hover-bg: #29203d;
-    --page-link-hover-bg: #29203d;
     --color-form: #f5f7f9;
     --primary-color : #ff553e;
     --secondary-color : #333;
@@ -381,7 +374,7 @@ p {
     color: var(--color-form);
 }
 .blog-text2{
-    color:  var(--primary-color);
+    color:  var(--color-form);
 }
 
 .footer {
