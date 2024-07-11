@@ -378,17 +378,16 @@ p {
 }
 
 #deal {
-    background-color: var(--accent-color);
+    background-color: var(--black-color);
 }
-.blog {
-    background-color: var(--page-link-hover-bg);
-    margin-block: 4rem;
-}
+
+
+
 .blog-text{
     color: var(--color-form);
 }
 .blog-text2{
-    color:  var(--page-link-hover-bg);
+    color:  var(--primary-color);
 }
 
 .footer {
