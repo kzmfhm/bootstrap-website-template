@@ -348,9 +348,14 @@ p {
     white-space: nowrap;
     text-transform: uppercase;
 }
-.paragraph{
+.paragraph:hover{
     opacity: 0.6;
     color: var(--primary-color);
+
+}
+.paragraph{
+    opacity: 0.6;
+    color: var(--white-color);
     text-transform: uppercase;
 }
 .basket a i {
@@ -368,7 +373,9 @@ p {
     background-color: var(--black-color);
 }
 
-
+.blog-text2:hover{
+    color:  var(--primary-color);
+}
 
 .blog-text{
     color: var(--color-form);
