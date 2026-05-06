@@ -4,4 +4,4 @@
 
 ### ⭐️Support
 
-Give a ⭐️ if this project helped you!
+Give ⭐️ ⭐️ if this project helped you!
